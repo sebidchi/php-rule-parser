@@ -15,9 +15,7 @@
   "require": {
     "php": ">=5.4"
   },
-  "autoload": {
-    "classmap": [
-      "src/"
-    ]
+  "psr-4": {
+    "nicoSWD\\Rules": "src/nicoSWD/Rules"
   }
 }
