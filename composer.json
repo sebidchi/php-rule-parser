@@ -15,7 +15,9 @@
   "require": {
     "php": ">=5.4"
   },
-  "psr-4": {
-    "nicoSWD\\Rules": "src/nicoSWD/Rules"
+  "autoload": {
+    "psr-4": {
+      "nicoSWD\\Rules\\": "src/nicoSWD/Rules"
+    }
   }
 }
